@@ -5,7 +5,7 @@ for (const char of sentence) {
     setTimeout(() => {
         process.stdout.write(char);
       }, i);
-      i += 60;
+      i += 50;
 };
 setTimeout(() => {
     console.log("\n");
